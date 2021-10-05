@@ -1,37 +1,38 @@
+const sec = document.getElementById("sec")
 
+const bola01 = document.createElement("div")
+const bola02 = document.createElement("div")
 
-function initial_table(){
-    let column = 7;
-    let row = 6;
+bola01.classList.add("player01")
+bola02.classList.add("player02")
 
-    const table = document.createElement("ul")
-    const secao = document.createElement("section")
-    document.body.appendChild(secao)
+let player = "p1";
 
+sec.addEventListener("click", (evt)=>{
 
-    secao.appendChild(table)
+    const bola01 = document.createElement("div")
+    const bola02 = document.createElement("div")
     
+    bola01.classList.add("player01")
+    bola02.classList.add("player02")
     
-     
-    for(let i = 0; i < column; i++ ){
-        const coluna = document.createElement("li")
+    let coluna = evt.target;
 
-        
-        for(let a = 0; a < row; a++){
-            const linha = document.createElement("div")
-            linha.classList.add("tupla","tupla"+a)
+    if(coluna.classList[0] === "coluna"){
+    if(player === "p1"){
+    coluna.appendChild(bola01)
+    player = "p2"
 
-
- 
-            linha.innerHTML = "teste"
-
-            coluna.appendChild(linha)
-        }
-
-        coluna.classList.add("column","coluna"+(i+1))
-        table.appendChild(coluna)
-        
-        
     }
-}
-initial_table()
+
+    else if(player === "p2"){
+        coluna.appendChild(bola02)
+        player = "p1"
+    }
+
+
+     }
+
+
+
+})
