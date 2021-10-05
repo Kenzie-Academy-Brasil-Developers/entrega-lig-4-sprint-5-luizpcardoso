@@ -5,10 +5,7 @@ function initial_table(){
     let row = 6;
 
     const table = document.createElement("ul")
-    const secao = document.createElement("section")
-    document.body.appendChild(secao)
-
-
+    const secao = document.getElementById("tabuleiro")
     secao.appendChild(table)
     
     

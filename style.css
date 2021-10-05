@@ -1,7 +1,31 @@
 body{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     margin-top: 0 auto;
+    background-image: url("https://wallpaperaccess.com/full/2889447.jpg");
+    background-size: auto;
+}
+.principal {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#tabuleiro {
+    background-color: #ffffff;
+    height: 60vh;
+    width: 60vw;
+    border-radius: 10px;
+    margin: 0 auto;
+
+}
+
+h1 {
+    margin: 30px auto 30px;
+    font-size: 40px;
+    color: #ffffff;
+    
 }
 ul{
     display: flex;
