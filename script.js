@@ -12,10 +12,10 @@ sec.addEventListener("click", (evt)=>{
 
     const bola01 = document.createElement("div")
     const bola02 = document.createElement("div")
-    
+
     bola01.classList.add("player01")
     bola02.classList.add("player02")
-    
+
     let coluna = evt.target;
 
     if(coluna.classList[0] === "coluna"){
@@ -35,4 +35,4 @@ sec.addEventListener("click", (evt)=>{
 
 
 
-})
+}) 
