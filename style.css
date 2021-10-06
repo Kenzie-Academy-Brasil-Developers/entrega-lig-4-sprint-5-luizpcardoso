@@ -4,6 +4,7 @@ body{
     margin-top: 0 auto;
     flex-direction: column;
     height: 100%;
+    background: url('./image/Sangue.jpg');
 }
 
 h1{
@@ -52,7 +53,7 @@ h1{
 .player01 {
     height: 50px;
     width: 50px;
-    background: url('./image/Sangue.jpg');
+    background: url('./image/gotasangue.jpg');
     background-size: cover;
     z-index: 1;
     
