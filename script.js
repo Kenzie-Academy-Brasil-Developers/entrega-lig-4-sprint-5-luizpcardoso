@@ -367,7 +367,7 @@ function diagonal(posicaoX,posicaoY){
     //     if (array[posicaoY-1][posicaoX-1] === array[posicaoY][posicaoX-2]){
     //         score++
     //     }
-    // }
+    // }///////
     // else  {
     //     if (array[posicaoY-1][posicaoX-1] === array[posicaoY-2][posicaoX-2]){
     //         score++
