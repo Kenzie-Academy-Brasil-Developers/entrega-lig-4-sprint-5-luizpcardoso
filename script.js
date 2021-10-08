@@ -353,3 +353,28 @@ function diagonal(posicaoX,posicaoY){
     }
     
 }
+
+
+   // else if (posicaoY-1 === 5){
+    //     if (array[posicaoY-1][posicaoX-1] === array[posicaoY][posicaoX-2]){
+    //         score++
+    //     }
+    //     if (array[posicaoY-1][posicaoX-1] === array[posicaoY-2][posicaoX-2]){
+    //         score++
+    //     } 
+    // }
+    // else if (posicaoY-1===0){
+    //     if (array[posicaoY-1][posicaoX-1] === array[posicaoY][posicaoX-2]){
+    //         score++
+    //     }
+    // }
+    // else  {
+    //     if (array[posicaoY-1][posicaoX-1] === array[posicaoY-2][posicaoX-2]){
+    //         score++
+    //     } 
+    //     if (array[posicaoY-1][posicaoX-1] === array[posicaoY-1][posicaoX-2]){
+    //         score++
+    //     }
+    // }
+    // return score
+}
